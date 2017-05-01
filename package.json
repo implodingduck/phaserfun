@@ -1,0 +1,23 @@
+{
+  "name": "phaserfun",
+  "version": "1.0.0",
+  "description": "just messing around",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/implodingduck/phaserfun.git"
+  },
+  "author": "implodingduck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/implodingduck/phaserfun/issues"
+  },
+  "homepage": "https://github.com/implodingduck/phaserfun#readme",
+  "dependencies": {
+    "phaser-ce": "^2.7.7"
+  }
+}
