@@ -28,6 +28,7 @@ io.on('connection', function(socket) {
     
     socket.on('newplayer',function(){
       console.log('new player action!');
+      socket.emit('playerid', socket.player.id);
       socket.emit('allplayers',getAllPlayers());
       socket.broadcast.emit('newplayer',socket.player);
       
